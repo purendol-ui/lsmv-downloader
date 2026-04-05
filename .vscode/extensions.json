@@ -1,0 +1,10 @@
+{
+    // VS Code가 자동으로 설치를 권장하는 확장 프로그램
+    "recommendations": [
+        "ms-python.python",          // Python 기본 지원
+        "ms-python.debugpy",         // Python 디버거
+        "ms-python.autopep8",        // 코드 자동 포맷팅
+        "ms-python.pylint",          // 코드 품질 검사
+        "ms-playwright.playwright"   // Playwright 지원
+    ]
+}

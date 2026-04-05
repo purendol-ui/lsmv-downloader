@@ -1,0 +1,27 @@
+{
+    // Python 인터프리터: 가상환경(venv) 사용
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+
+    // 저장 시 자동 포맷팅
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+
+    // 파일 탐색기에서 불필요한 폴더 숨김
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "venv": true
+    },
+
+    // 터미널 기본값
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // 저장 시 후행 공백 제거
+    "files.trimTrailingWhitespace": true,
+
+    // 인코딩
+    "files.encoding": "utf8"
+}

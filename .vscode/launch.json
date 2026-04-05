@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // ▶ 메인 실행 (F5)
+            "name": "LSMV 다운로더 실행",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/lsmv_downloader.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONIOENCODING": "utf-8"
+            }
+        },
+        {
+            // 🐛 디버그 모드 (브라우저 보이게)
+            "name": "LSMV 다운로더 디버그",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/lsmv_downloader.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONIOENCODING": "utf-8",
+                "LSMV_HEADLESS": "false"
+            }
+        }
+    ]
+}
